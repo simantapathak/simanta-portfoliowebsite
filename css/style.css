@@ -60,16 +60,13 @@ a:active {
   margin: 0 auto; /* No spacing to top and bottom and auto spacing to left and right */
   padding: 0 20px;
 }
-.columns-container {
-  font-size: 0; /*gets rid of extra white space*/
-}
 .column-4 {
   width: 24%;
   display: inline-block;
   margin-right: 1%;
   font-size:16px;
   text-align:center;
-  float:left;
+  float:left; /*this one gets rid of extra white space and keeps all columns side by side*/
   vertical-align:top;
 }
 .column-4:last-child {
