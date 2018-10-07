@@ -147,6 +147,12 @@ h1 {
   text-align: center; /* Centers text */
 }
 
+.contact-me {
+    margin-left: auto;
+    margin-right: auto;
+    width: 20em
+}
+
 @media all and (max-width: 500px) {
   .logo {
     /* Make logo smaller by changing it's height */
